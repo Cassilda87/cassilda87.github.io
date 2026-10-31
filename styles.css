@@ -1,8 +1,7 @@
 body {color:#2D2D2D; 
     background-color:#F8F6F2;}
 header {display: flex;     
-        justify-content: space-around;
-        
+        justify-content: stretch;
         background-color:#696d7d;
         color:#f0dcca;
         border-radius: 30%;
@@ -10,11 +9,12 @@ header {display: flex;
     }
 footer {background-color:#6F9283;
     color:#F0DCCA;
+  
     
 }
 
-.cntr {
-    text-align: center;}
+.cntr {display: flex;
+justify-content: center;}
 .intro {display: flex;
     
     align-items: center;
