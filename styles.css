@@ -1,0 +1,31 @@
+body {color:#2D2D2D; 
+    background-color:#F8F6F2;}
+header {display: flex;     
+        justify-content: space-around;
+        
+        background-color:#696d7d;
+        color:#f0dcca;
+        border-radius: 30%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+footer {background-color:#6F9283;
+    color:#F0DCCA;
+    padding: 100px
+}
+
+.cntr {
+    text-align: center;}
+.intro {display: flex;
+    
+    align-items: center;
+    
+    border: 10px solid;
+    border-radius: 80%;
+    padding-left: 350px;
+    padding-right: 350px;
+
+    align-content: center;
+
+    }
+.border {border-radius: 50%}
+.main {max-width: 800px}
