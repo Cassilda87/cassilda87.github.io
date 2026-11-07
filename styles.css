@@ -1,18 +1,45 @@
 body {color:#2D2D2D; 
-    background-color:#F8F6F2;}
-header {display: flex;     
-        justify-content: stretch;
-        background-color:#696d7d;
-        color:#f0dcca;
-        border-radius: 30%;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    background-color:#d3971f;
+    margin: 0px;
+    padding: 0px;}
+header {background-image: url("heise.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;  
+        
     }
-footer {background-color:#6F9283;
+footer {
     color:#F0DCCA;
-  
-    
+    margin: 10px;
 }
+main {margin: 20px;}
 
+
+
+.header {font-family:cursive;
+        color: #b27628;
+        text-shadow: -3px 4px 15px #1c1308;
+font-size: 50px;
+   padding: 80px 50px 5px;
+
+
+}
+.title {display: flex;
+justify-content: center;
+margin: 0px 0px 5px;
+padding: 10px;
+}
+.menu {display: flex;
+    justify-content: space-evenly;
+    font-family:cursive;
+        color: #6e3047;
+        text-shadow: -3px 4px 15px #1c1308;
+font-size: 30px;
+padding: 0px 0px 520px;
+margin: 65px;
+}
 .cntr {display: flex;
 justify-content: center;}
 .intro {display: flex;
