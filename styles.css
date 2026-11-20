@@ -18,17 +18,23 @@ footer {
     color:#F0DCCA;
     margin: 10px;
 }
-main {margin: 100px;
+main {margin: 45px 10px 1100px 25px;
+    /* display: flex; */
+    /* flex-direction: column; */
+         
+    
 }
 
 nav {display: flex;
 justify-content: center;
 width: 100%;}
+
 .overlay-image {
      display: flex;
      justify-content: center;
     object-fit: cover;
     margin: 10px;
+    
     
 }
 .header {
@@ -88,4 +94,211 @@ justify-content: center;}
     align-content: center;
 
     }
-.border {border-radius: 50%}
+/* .border {border-radius: 50%} */
+
+
+/* used codepen template to create collage */
+.container{
+    display:flex;
+    position:absolute;
+    
+    
+}
+.avatar {
+    width: 400px;
+    height: 360px;
+    z-index: 1;
+    position: absolute; left: 20px; top:630px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px;
+}
+.avatar:hover{
+    transform: scale(125%);
+    transition: transform .3s;
+    box-shadow: 0px 0px 33px #75505f;
+    height: 360px;
+    width: 400px;
+    z-index: 100;
+}
+.baymax{
+    width: 200px;
+    height: 250px;
+    z-index: 1;
+    position: absolute; left: 735px; top: 740px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px;
+}
+.baymax:hover{
+    transform: scale(125%);
+    transition: transform .3s;
+    box-shadow: 0px 0px 33px #75505f;
+    width: 200px;
+    height: 250px;
+    z-index: 100;
+}
+.bird{
+    width: 400px;
+    height: 280px;
+    z-index: 1;
+    position: absolute; left:20px; top:335px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px;
+}
+.bird:hover{
+    transform: scale(125%);
+    transition: transform .3s;
+    box-shadow: 0px 0px 33px #75505f;
+    width: 400px;
+    height: 280px;
+    z-index: 100;
+}
+.blanket{
+   width: 290px;
+  height: 435px;
+  z-index: 1;
+  position:absolute; left:645px; top:0px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px;
+}
+.blanket:hover{
+    transform: scale(125%);
+    transition: transform .3s;
+    box-shadow: 0px 0px 33px #75505f;
+    width: 290px;
+  height: 435px;
+  z-index: 100;
+}
+.boov{width: 195px;
+    height: auto;
+    z-index: 1;
+    position: absolute; left:435px; top:0px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px;
+}
+.boov:hover{transform:scale(125%);
+    transition: transform .3s;
+    box-shadow: 0px 0px 33px #75505f;
+    width: 195px;
+    height: auto;
+    z-index: 100;
+}
+.gimli{width: 285px;
+    height: 545px;
+    z-index: 1;
+    position:absolute; left: 435px; top:445px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0px; 
+}
+.gimli:hover{
+transform: scale(125%);
+transition: transform .3s;
+  box-shadow: 0px 0px 33px #75505f;
+  width: 285px;
+    height: 545px;
+    z-index: 100;
+}
+.lilo {width: 200px;
+  height: 285px;
+  z-index: 1;
+  position:absolute; left: 735px; top:445px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0px; 
+}
+.lilo:hover{
+transform: scale(125%);
+transition: transform .3s;
+  box-shadow: 0px 0px 33px #75505f;
+  width: 200px;
+  height: 285px;
+  z-index: 100;
+}
+.nuts {width: 100px;
+  height: 180px;
+  z-index: 1;
+  position:absolute; left:321px; top:0px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0px; 
+}
+.nuts:hover{
+transform: scale(125%);
+transition: transform .3s;
+  box-shadow: 0px 0px 33px #75505f;
+  width: 100px;
+  height: 180px;
+  z-index: 100;
+}
+.cat {width: 100px;
+  height: auto;
+  z-index: 1;
+  position: absolute; left:321px; top: 190px;px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0px; 
+}
+.cat:hover{
+transform: scale(125%);
+transition: transform .3s;
+  box-shadow: 0px 0px 33px #75505f;
+  width: 100px;
+  height: auto;
+  z-index: 100;
+}
+.elephants {width: 195px;
+  height: auto;
+  z-index: 1;
+  position:absolute; left:435px; top:208px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0px; 
+}
+.elephants:hover{
+transform: scale(125%);
+transition: transform .3s;
+  box-shadow: 0px 0px 33px #75505f;
+  width: 195px;
+  height: auto;
+  z-index: 100;
+}
+.unicorn {
+  width: 288px;
+  height: 325px;
+  z-index: 1;
+  position:absolute; left:20px; top:0px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 10px;
+  padding: 0px; 
+}
+.unicorn:hover{
+transform: scale(125%);
+transition: transform .3s;
+  box-shadow: 0px 0px 33px #75505f;
+ width: 288px;
+  height: 325px;
+  z-index: 100;
+}
+
+
+/* Used ChatGPT to help configure a mobile friendly version */
+@media screen and (max-width: 600px) {
+    main {
+        margin-top: 100px;
+        margin-bottom: 450px;
+        margin-right: auto;
+        margin-left: 5px;
+    }
+    .header {font-size: 18px;}
+    header {height: 750px;
+        }
+    .nav {margin-bottom: 150px;
+        margin-top: 30px;
+        gap: 20px;}
+    .container {scale: 35%;}
+}
